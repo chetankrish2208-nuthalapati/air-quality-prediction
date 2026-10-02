@@ -62,19 +62,10 @@ The prediction features were:
 
 ## Visualizations
 
-### CO Distribution
 ![CO Distribution](images/co_distribution.png)
-
-### Correlation Heatmap
 ![Correlation Heatmap](images/correlation_heatmap.png)
-
-### CO vs NOx
 ![CO vs NOx](images/co_vs_nox.png)
-
-### Actual vs Predicted CO
 ![Actual vs Predicted](images/actual_vs_predicted.png)
-
-### Feature Importance
 ![Feature Importance](images/feature_importance.png)
 
 ## Machine Learning
