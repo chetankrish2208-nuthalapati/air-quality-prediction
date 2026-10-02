@@ -63,12 +63,19 @@ The prediction features were:
 ## Visualizations
 
 ### CO Distribution
+![CO Distribution](images/co_distribution.png)
 
 ### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ### CO vs NOx
+![CO vs NOx](images/co_vs_nox.png)
 
 ### Actual vs Predicted CO
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
 
 ## Machine Learning
 
@@ -76,10 +83,10 @@ A Linear Regression model was trained using an 80/20 train-test split.
 
 ### Results
 
-| Metric   | Result |
-| -------- | -----: |
-| MAE      | 0.2655 |
-| RMSE     | 0.4067 |
+| **Metric** | **Result** |
+| ---------- | ---------- |
+| MAE | 0.2655 |
+| RMSE | 0.4067 |
 | R² Score | 0.9124 |
 
 The R² score indicates that the model explained approximately 91.2% of the variation in CO concentration in the test set.
@@ -88,30 +95,32 @@ The R² score indicates that the model explained approximately 91.2% of the vari
 
 A Random Forest model was also used to examine the relative importance of the input features.
 
+![Feature Importance](images/feature_importance.png)
+
 The model identified `C6H6(GT)` as the most important feature for its predictions.
 
 Feature importance describes how much a feature contributed to the Random Forest's predictive decisions. It does not mean that the feature directly causes CO concentration.
 
 ## Limitations
 
-* The project uses a relatively simple machine-learning approach.
-* Missing data reduced the number of usable observations.
-* The model does not include every variable available in the original dataset.
-* Feature importance should not be interpreted as causation.
-* Model performance may differ on other datasets or future observations.
+- The project uses a relatively simple machine-learning approach.
+- Missing data reduced the number of usable observations.
+- The model does not include every variable available in the original dataset.
+- Feature importance should not be interpreted as causation.
+- Model performance may differ on other datasets or future observations.
 
 ## Learning Outcome
 
 This project helped me practice:
 
-* Python programming
-* Data cleaning
-* Exploratory data analysis
-* Data visualization
-* Linear Regression
-* Model evaluation
-* Random Forest feature analysis
-* Working with a real-world dataset
+- Python programming
+- Data cleaning
+- Exploratory data analysis
+- Data visualization
+- Linear Regression
+- Model evaluation
+- Random Forest feature analysis
+- Working with a real-world dataset
 
 ## Project Structure
 
@@ -126,21 +135,3 @@ Air-Quality-Analysis
 │   └── feature_importance.png
 └── data
     └── AirQualityUCI.xlsx
-
-
-### CO Distribution
-![CO Distribution](images/co_distribution.png)
-
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-### CO vs NOx
-![CO vs NOx](images/co_vs_nox.png)
-
-### Actual vs Predicted CO
-![Actual vs Predicted](images/actual_vs_predicted.png)
-
-### Feature Importance
-![Feature Importance](images/feature_importance.png)
-```
-
