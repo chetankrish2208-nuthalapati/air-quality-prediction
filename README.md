@@ -66,7 +66,7 @@ The prediction features were:
 ![Correlation Heatmap](images/correlation_heatmap.png)
 ![CO vs NOx](images/co_vs_nox.png)
 ![Actual vs Predicted](images/actual_vs_predicted.png)
-![Feature Importance](images/feature_importance.png)
+
 
 ## Machine Learning
 
